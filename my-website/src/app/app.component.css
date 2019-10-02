@@ -1,0 +1,39 @@
+.introduction-block {
+  margin-top: 10%;
+  grid-area: introduction-block;
+}
+
+.profile-photo-block {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 35px 0;
+  /* grid-area: profile-photo; */
+}
+
+.profile-photo {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.typewriter-block {
+  display: block;
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding: 35px 20px;
+  /* grid-area: ide-typewriter; */
+}
+
+.social-links-block {
+  text-align: center;
+  grid-area: social-links-block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "introduction-block"
+    "social-links-block";
+}

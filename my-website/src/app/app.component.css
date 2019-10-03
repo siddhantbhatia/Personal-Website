@@ -12,11 +12,11 @@
 .column {
   float: left;
   height: 500px;
+  width: 50%;
 }
 
 .profile-photo-block {
   text-align: center;
-  width: 50%;
   /* grid-area: profile-photo; */
 }
 
@@ -42,7 +42,6 @@
 }
 
 .typewriter-block {
-  width: 50%;
   padding-top: 25px;
   /* grid-area: ide-typewriter; */
 }
@@ -55,12 +54,15 @@
   background-color: rgb(45, 45, 45);
   color: white;
   border-radius: 30px;
+  font-size: 1.25em;
 }
 
 .social-links-block {
   text-align: center;
-  grid-area: social-links-block;
-  size: 30px;
+  font-family: "Sans-serif", Arial, Verdana;
+  font-size: 1.2em;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -69,10 +71,6 @@ a {
 
 .social-links-block > span {
   display: block;
-  font-family: "Sans-serif", Arial, Verdana;
-  font-size: 1.2rem;
-  padding: 5px;
-  margin-bottom: 10px;
 }
 
 .social-links-block > a {
@@ -82,17 +80,14 @@ a {
 
 .githubLogo {
   padding: 5px;
-  font-size: 2em;
 }
 
 .linkedinLogo {
   padding: 5px;
-  font-size: 2em;
 }
 
 .coffeeLogo {
   padding: 5px;
-  font-size: 1.5em;
 }
 
 .githubLogo:hover {
@@ -105,6 +100,47 @@ a {
 
 .coffeeLogo:hover {
   opacity: 0.5;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-photo-block {
+    text-align: left;
+    padding: 10px;
+    height: 230px;
+  }
+
+  .profile-photo {
+    width: 150px;
+  }
+
+  .profile-name {
+    font-size: 2em;
+  }
+
+  .profile-description {
+    font-size: 1.5em;
+  }
+
+  .column {
+    height: 250px;
+    width: 100%;
+  }
+
+  .typewriter-block {
+    height: 280px;
+    padding: 20px 5px;
+  }
+
+  .typewriter {
+    display: none;
+    /* font-size: 0.83em;
+    padding: 20px 0px 20px 18px; */
+  }
+
+  .social-links-block {
+    padding: 20px 0px 0px 0px;
+    margin-bottom: 0px;
+  }
 }
 
 /* .grid-container {

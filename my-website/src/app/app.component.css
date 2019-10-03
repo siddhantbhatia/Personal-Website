@@ -3,11 +3,21 @@
   grid-area: introduction-block;
 }
 
-.profile-photo-block {
+.introduction-block:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
   float: left;
-  width: 50%;
+  height: 500px;
+  padding: 10px;
+}
+
+.profile-photo-block {
   text-align: center;
-  padding: 35px 0;
+  width: 50%;
   /* grid-area: profile-photo; */
 }
 
@@ -18,20 +28,22 @@
 }
 
 .typewriter-block {
-  float: left;
-  height: 100%;
   width: 50%;
-  text-align: left;
-  padding: 35px 20px;
-  background-color: rgb(45, 45, 45);
-  color: white;
-  border-radius: 5%;
-
+  padding-top: 25px;
   /* grid-area: ide-typewriter; */
 }
 
+.typewriter {
+  width: 90%;
+  height: 90%;
+  padding: 30px 20px;
+  text-align: left;
+  background-color: rgb(45, 45, 45);
+  color: white;
+  border-radius: 30px;
+}
+
 .social-links-block {
-  margin-top: 5%;
   text-align: center;
   grid-area: social-links-block;
   size: 30px;
@@ -70,9 +82,9 @@
   text-align: center;
 }
 
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-areas:
     "introduction-block"
     "social-links-block";
-}
+} */

@@ -200,34 +200,36 @@ a {
   }
 
   .profile-photo-block {
+    width: 50%;
     text-align: center;
   }
 
   .profile-photo {
-    width: 300px;
+    width: 270px;
   }
 
   .profile-name {
-    font-size: 4rem;
+    font-size: 3.6rem;
   }
 
   .profile-description {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .column {
-    height: 500px;
+    height: 450px;
   }
 
   .typewriter-block {
+    width: 50%;
     padding-top: 25px;
   }
 
   .typewriter {
     width: 90%;
-    height: 400px;
+    height: 360px;
     padding: 50px 30px;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .social-links-block {
@@ -236,7 +238,7 @@ a {
   }
 
   .coffee-footer {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 5px;
     margin-bottom: 10px;
   }

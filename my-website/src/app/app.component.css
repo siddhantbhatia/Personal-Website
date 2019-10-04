@@ -68,8 +68,8 @@
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  padding: 5px;
-  margin-bottom: 10px;
+  /* padding: 5px;
+  margin-bottom: 10px; */
 }
 
 a {
@@ -100,8 +100,8 @@ a {
 .coffee-footer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
-  padding: 5px;
+  /* font-size: 1.2em;
+  padding: 5px; */
 }
 
 .coffeeLogo {
@@ -116,6 +116,7 @@ a {
   .container {
     padding-left: 20px;
   }
+
   .profile-photo-block {
     text-align: left;
     padding: 10px;
@@ -158,14 +159,14 @@ a {
   .coffee-footer {
     color: rgba(14, 12, 12, 0.603);
     font-size: 0.95em;
-    padding: 0px;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .introduction-block {
-    margin-top: 3%;
+    margin-top: 5%;
   }
+
   .profile-photo-block {
     width: 40%;
     padding: 5px;
@@ -196,7 +197,20 @@ a {
   }
 
   .typewriter {
-    font-size: 0.9em;
+    width: 90%;
+    height: 200px;
+    font-size: 0.8em;
+    padding-top: 15px;
+    padding-left: 20px;
+  }
+
+  .social-links-block {
+    padding-top: 40px;
+  }
+
+  .coffee-footer {
+    font-size: 1em;
+    margin-bottom: 5px;
   }
 }
 
@@ -235,5 +249,16 @@ a {
     height: 400px;
     padding: 50px 30px;
     font-size: 1.25em;
+  }
+
+  .social-links-block {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .coffee-footer {
+    font-size: 1.2em;
+    padding: 5px;
+    margin-bottom: 10px;
   }
 }

@@ -10,13 +10,11 @@
 
 .column {
   float: left;
-  /* height: 500px; */
   width: 50%;
 }
 
 .profile-photo-block {
   text-align: center;
-  /* grid-area: profile-photo; */
 }
 
 .profile-photo {
@@ -34,24 +32,14 @@
 }
 
 .profile-description {
-  /* font-size: 2em; */
   color: rgba(14, 12, 12, 0.829);
 }
 
-.typewriter-block {
-  /* padding-top: 25px; */
-  /* grid-area: ide-typewriter; */
-}
-
 .typewriter {
-  /* width: 90%;
-  height: 400px;
-  padding: 50px 30px; */
   text-align: left;
   background-color: rgb(45, 45, 45);
   color: white;
   border-radius: 30px;
-  /* font-size: 1.25em; */
 }
 
 .info-block {
@@ -60,16 +48,14 @@
   margin: 5px 20px 5px 15px;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   color: rgba(14, 12, 12, 0.603);
 }
 
 .social-links-block {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
-  /* padding: 5px;
-  margin-bottom: 10px; */
+  font-size: 1rem;
 }
 
 a {
@@ -100,8 +86,6 @@ a {
 .coffee-footer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  /* font-size: 1.2em;
-  padding: 5px; */
 }
 
 .coffeeLogo {
@@ -128,11 +112,11 @@ a {
   }
 
   .profile-name {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   .profile-description {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 
   .column {
@@ -142,8 +126,6 @@ a {
 
   .typewriter-block {
     display: none;
-    /* height: 280px;
-    padding: 20px 5px; */
   }
 
   .info-block {
@@ -158,7 +140,7 @@ a {
 
   .coffee-footer {
     color: rgba(14, 12, 12, 0.603);
-    font-size: 0.95em;
+    font-size: 0.95rem;
   }
 }
 
@@ -178,11 +160,11 @@ a {
   }
 
   .profile-name {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 
   .profile-description {
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
 
   .column {
@@ -190,8 +172,6 @@ a {
   }
 
   .typewriter-block {
-    /* display: none; */
-    /* height: 280px; */
     width: 60%;
     padding: 5px;
   }
@@ -199,7 +179,7 @@ a {
   .typewriter {
     width: 90%;
     height: 200px;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     padding-top: 15px;
     padding-left: 20px;
   }
@@ -209,7 +189,7 @@ a {
   }
 
   .coffee-footer {
-    font-size: 1em;
+    font-size: 1rem;
     margin-bottom: 5px;
   }
 }
@@ -228,11 +208,11 @@ a {
   }
 
   .profile-name {
-    font-size: 4em;
+    font-size: 4rem;
   }
 
   .profile-description {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   .column {
@@ -241,14 +221,13 @@ a {
 
   .typewriter-block {
     padding-top: 25px;
-    /* grid-area: ide-typewriter; */
   }
 
   .typewriter {
     width: 90%;
     height: 400px;
     padding: 50px 30px;
-    font-size: 1.25em;
+    font-size: 1.25rem;
   }
 
   .social-links-block {
@@ -257,7 +236,7 @@ a {
   }
 
   .coffee-footer {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     padding: 5px;
     margin-bottom: 10px;
   }

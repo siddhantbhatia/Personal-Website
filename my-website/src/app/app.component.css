@@ -67,33 +67,21 @@ a {
   transition: opacity 0.35s ease;
 }
 
-.githubLogo {
+.logo-holder {
   padding: 5px;
 }
 
-.githubLogo:hover {
+.logo:hover {
   opacity: 0.5;
 }
 
-.linkedinLogo {
-  padding: 5px;
-}
-
-.linkedinLogo:hover {
-  opacity: 0.5;
+.logo {
+  width: 35px;
 }
 
 .coffee-footer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.coffeeLogo {
-  padding: 5px;
-}
-
-.coffeeLogo:hover {
-  opacity: 0.5;
 }
 
 @media only screen and (max-width: 600px) {
@@ -141,6 +129,8 @@ a {
   .coffee-footer {
     color: rgba(14, 12, 12, 0.603);
     font-size: 0.95rem;
+    padding-top: 10px;
+    padding-bottom: 5px;
   }
 }
 
@@ -190,7 +180,8 @@ a {
 
   .coffee-footer {
     font-size: 1rem;
-    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
   }
 }
 
@@ -205,7 +196,7 @@ a {
   }
 
   .profile-photo {
-    width: 270px;
+    width: 280px;
   }
 
   .profile-name {
@@ -239,7 +230,7 @@ a {
 
   .coffee-footer {
     font-size: 1.1rem;
-    padding: 5px;
+    padding: 8px;
     margin-bottom: 10px;
   }
 }

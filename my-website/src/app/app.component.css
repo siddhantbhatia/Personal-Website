@@ -67,12 +67,16 @@ a {
   transition: opacity 0.35s ease;
 }
 
-.logo {
+.logo-holder {
   padding: 5px;
 }
 
 .logo:hover {
   opacity: 0.5;
+}
+
+.logo {
+  width: 35px;
 }
 
 .coffee-footer {

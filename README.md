@@ -13,7 +13,7 @@ Included icons for easy access to my resume and portfolio.
 ## Libraries
 
 - A huge shoutout to **Matt Boldt** for the amazing [typed.js](https://github.com/mattboldt/typed.js/) library
-- Icons downloaded from [FlatIcon[(https://www.flaticon.com/)
+- Icons downloaded from [FlatIcon](https://www.flaticon.com/)
 
 
 

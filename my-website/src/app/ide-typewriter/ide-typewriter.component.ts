@@ -20,7 +20,7 @@ export class IdeTypewriterComponent implements OnInit {
         <br>&emsp;&emsp;<span>Winter2020InternAt: </span> <a href='https://warwick.ac.uk/fac/sci/statistics/research/' target='_blank' style='color:rgba(253, 149, 90, 0.8); text-decoration: none'>'Warwick Research Centre'</a><span>,</span>\
         <br>&emsp;&emsp;<span>Summer2019InternAt: </span> <a href='https://en.4th-valley.com/aboutus/' target='_blank' style='color:rgba(253, 149, 90, 0.8); text-decoration: none'>'Fourth Valley Concierge'</a><span>,</span>\
         <br>&emsp;&emsp;<span>Summer2018InternAt: </span> <a href='https://www.monster.com/about/' target='_blank' style='color:rgba(253, 149, 90, 0.8); text-decoration: none'>'Monster Jobs'</a><span>,</span>\
-        <br>&emsp;&emsp;<span>location: </span> <span style='color:rgba(253, 149, 90, 0.8)'>'Coventry, United Kingdom'</span><span>,</span>\
+        <br>&emsp;&emsp;<span>location: </span> <span style='color:rgba(253, 149, 90, 0.8)'>'Kuala Lumpur, Malaysia'</span><span>,</span>\
         <br><span>};</span>\
         "
       ],

@@ -8,7 +8,7 @@ Carefully designed the user interface to portray my professional profile as well
 
 Included icons for easy access to my resume and portfolio.
 
-![user-interface](https://user-images.githubusercontent.com/30483239/66672722-83f81f00-ec91-11e9-9c2e-7f55f39b1dbf.png)
+![user-interface](https://user-images.githubusercontent.com/30483239/82568935-1fe7f280-9bb2-11ea-8550-30c095403df8.png)
 
 ## Libraries
 

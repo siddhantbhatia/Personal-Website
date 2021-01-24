@@ -22,6 +22,7 @@
     "angular-cli-ghpages": "^0.5.3",
     "core-js": "^2.5.4",
     "rxjs": "~6.5.3",
+    "serialize-javascript": "^5.0.1",
     "tslib": "^1.9.0",
     "typed.js": "^2.0.11",
     "typescript": ">=3.4 <3.6",

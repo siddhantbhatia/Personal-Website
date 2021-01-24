@@ -1,51 +1,45 @@
-.introduction-block {
+.p {
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-top: 10%;
 }
 
-.introduction-block:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column {
-  float: left;
-  width: 50%;
-}
-
 .profile-photo-block {
-  text-align: center;
-}
-
-.profile-photo {
-  border-radius: 50%;
+  text-align: left;
 }
 
 .profile-photo-block > p {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  margin: 5px;
+}
+
+.profile-photo {
+  width: 150px;
+  border-radius: 50%;
 }
 
 .profile-name {
+  font-size: 2rem;
   color: black;
 }
 
 .profile-description {
+  font-size: 1.5rem;
   color: rgba(14, 12, 12, 0.829);
 }
 
-.typewriter {
-  text-align: left;
-  background-color: rgb(45, 45, 45);
-  color: white;
-  border-radius: 30px;
+.typewriter-block {
+  display: none;
 }
 
 .info-block {
-  display: none;
   text-align: left;
-  margin: 5px 20px 5px 15px;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
@@ -53,9 +47,10 @@
 }
 
 .social-links-block {
-  text-align: center;
+  text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
+  margin-top: 5%;
 }
 
 a {
@@ -63,7 +58,7 @@ a {
 }
 
 .social-links-block > a {
-  padding: 5px;
+  padding-right: 5px;
   transition: opacity 0.35s ease;
 }
 
@@ -82,156 +77,19 @@ a {
 .coffee-footer {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 320px) {
   .container {
-    padding-left: 20px;
-  }
-
-  .profile-photo-block {
-    text-align: left;
-    padding: 10px;
-    height: 230px;
-  }
-
-  .profile-photo {
-    width: 150px;
-  }
-
-  .profile-name {
-    font-size: 2rem;
-  }
-
-  .profile-description {
-    font-size: 1.5rem;
-  }
-
-  .column {
-    height: 240px;
-    width: 100%;
-  }
-
-  .typewriter-block {
-    display: none;
+    margin-left: 10px;
   }
 
   .info-block {
-    display: block;
-  }
-
-  .social-links-block {
-    text-align: left;
-    padding-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-  }
-
-  .coffee-footer {
-    color: rgba(14, 12, 12, 0.603);
-    font-size: 0.95rem;
-    padding-top: 10px;
-    padding-bottom: 5px;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .introduction-block {
-    margin-top: 5%;
-  }
-
-  .profile-photo-block {
-    width: 40%;
-    padding: 5px;
-    height: 130px;
-  }
-
-  .profile-photo {
-    width: 140px;
-  }
-
-  .profile-name {
-    font-size: 1.5rem;
-  }
-
-  .profile-description {
-    font-size: 1.2rem;
-  }
-
-  .column {
-    height: 200px;
-  }
-
-  .typewriter-block {
-    width: 60%;
-    padding: 5px;
-  }
-
-  .typewriter {
-    width: 90%;
-    height: 200px;
     font-size: 0.8rem;
-    padding-top: 15px;
-    padding-left: 20px;
   }
 
   .social-links-block {
-    padding-top: 40px;
-  }
-
-  .coffee-footer {
-    font-size: 1rem;
-    padding-top: 10px;
-    padding-bottom: 5px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .introduction-block {
-    margin-top: 10%;
-  }
-
-  .profile-photo-block {
-    width: 50%;
-    text-align: center;
-  }
-
-  .profile-photo {
-    width: 280px;
-  }
-
-  .profile-name {
-    font-size: 3.6rem;
-  }
-
-  .profile-description {
-    font-size: 1.8rem;
-  }
-
-  .column {
-    height: 450px;
-  }
-
-  .typewriter-block {
-    width: 50%;
-    padding-top: 25px;
-  }
-
-  .typewriter {
-    width: 90%;
-    height: 360px;
-    padding: 50px 30px;
-    font-size: 1.125rem;
-  }
-
-  .social-links-block {
-    padding: 5px;
-    margin-bottom: 10px;
-  }
-
-  .coffee-footer {
-    font-size: 1.1rem;
-    padding: 8px;
-    margin-bottom: 10px;
+    font-size: 0.8rem;
   }
 }
